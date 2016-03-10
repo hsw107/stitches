@@ -12,8 +12,8 @@
 
 <% $.map(sprites, function (sprite) { %>
 \n
-    $<%= prefix %>-<%= sprite.name %>-left: sprite.left(true);\n
-    $<%= prefix %>-<%= sprite.name %>-top: sprite.top(true);\n
+    $<%= prefix %>-<%= sprite.name %>-left: <%= sprite.left(true) %>;\n
+    $<%= prefix %>-<%= sprite.name %>-top: <%= sprite.top(true) %>;\n
     .<%= prefix %>.<%= prefix %>-<%= sprite.name %> {\n
         @include <%= prefix %>-sprites($<%= prefix %>-<%= sprite.name %>-left, $<%= prefix %>-<%= sprite.name %>-top, <%= sprite.image.width %>px, <%= sprite.image.height %>px);\n
     }\n
