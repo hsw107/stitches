@@ -93,7 +93,7 @@ function (stitchesTemplate, downloadsTemplate, spriteTemplate, cssTemplate, cssM
          */
         lessMarkup: function () {
             return lessMarkupTemplate.apply(this, arguments);
-        }
+        },
         
         /**
          * ### @scss
