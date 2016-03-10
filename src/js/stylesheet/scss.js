@@ -57,6 +57,6 @@ function ($, util, templates, BaseStylesheet) {
         }
     });
 
-    return ScssleStylesheet;
+    return ScssStylesheet;
 
 });
